@@ -3,6 +3,7 @@ Project 0 for https://github.com/pragmaproducts/Training/blob/master/Projects/Pr
 
 [JSFiddle](https://jsfiddle.net/InquisitorJax/5qz91tw8/1/) for basic CSS + some flex for adaptive layout
 
+[JSFiddle](https://jsfiddle.net/InquisitorJax/tcradcp3/) for using CSS-Grid for the same effect. 
 
 
 
