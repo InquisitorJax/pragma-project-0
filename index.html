@@ -3,52 +3,57 @@
 <style>
     html {
         /* note that changing the font size for any parent container will effect the size properties */
-        font-size: 62.5%; /* /10 for rem size calcs */
+        font-size: 16px; /* /10 for rem size calcs */
+        height: 100%;            
+        text-align: center;    
     }
-
-    html,
+    
     body {
         height: 100%;
-        margin: 0;
-        text-align: center;          
+        display: flex;
+        flex-direction: column;                           
+        margin: 0;        
     }
 
-    /* push the footer to always be at the bottom of the page, 
-    and make content fill the combined height of footer and header*/
     .wrapper {
-        display: flex;        
-        min-height: calc(100% - 14rem);
+        display: flex;   /* inner flex to manage mobile media query for changing location of aside */        
+        flex: 1;     
+        min-height: 18rem; /* so footer doesn't render over the main content when shrinking */
     }
 
     aside {
         background: green;
-        width: 30rem;
+        width: 18.75rem;        
     }
 
     .content-inside {
         background: lightgreen;        
-        width: 100%;
+        flex: 1;
+    }
+
+    .header, .footer {
+        height: 4.375rem; /* roughly 70px */
     }
 
     .header {
-        background: orange;
-        height: 7rem;
+        background: orange;                                
     }
 
-    .footer {
-        height: 7rem;
+    .footer {        
         background: lightcoral;        
     }
      
     @media all and (max-width: 30rem) {
         .wrapper { flex-flow: row wrap; }
-        .aside { width: 100%}
+        .aside { width: 100%; }
     }
    
 </style>
 
 <body>
-    <header class="header">HEADER</header>    
+    <header class="header">
+        HEADER
+    </header>    
     <div class="wrapper"> 
         <main class="content-inside">
             MAIN

@@ -1,5 +1,9 @@
-http://engageinteractive.co.uk/blog/em-vs-rem-vs-px
+
+CSS:
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 https://css-tricks.com/couple-takes-sticky-footer/
 https://css-tricks.com/snippets/css/complete-guide-grid/
 
+rem:
+https://offroadcode.com/rem-calculator/
+http://engageinteractive.co.uk/blog/em-vs-rem-vs-px
